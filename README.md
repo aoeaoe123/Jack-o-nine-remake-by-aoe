@@ -1,5 +1,5 @@
 # Jack-o-nine-remake-by-aoe
-Basic Test version
+Downloading alpha versions: Click on the Name of the Version, Click on Raw, that will download the file. Note: some Forms might not have automatic program ending and you might have to end process if you close the game in weird places (or just leave it it doesn't take much memory)
 
 The aim is to recreate Jack-o-Nine in visual studio, the initial goal is to rewrite the game, then after, add more to it.
 
