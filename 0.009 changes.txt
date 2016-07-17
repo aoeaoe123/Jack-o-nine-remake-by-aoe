@@ -1,0 +1,11 @@
+Now there is a save system: This will create a file (currently calles savefile001) in a save folder, creating a folder is there isn't one.
+Allowing infinite saves/renamable saves/etc will be easily added later if necessary
+
+I have two buttons that repeat this process 1000 times for testing, here are my results:
+
+18.29s for 1000 saves
+7.01s for 1000 loads
+
+The save system is a write of all important variables, at the moment it is easily readable which wil mean that trainers/editing will be easy. If preferred I can later add in hashing if people prefer it if their save game is more protected.
+
+Ultimately the save/load times will be roughly this: ~sub 1 second (.0018s). Even after adding in multiple slaves (say having 10+ slaves stored), it will still take less than 1 second to load (well it should).
